@@ -5,7 +5,7 @@ from io import BytesIO
 
 app = Flask(__name__)
 
-GEMINI_API_KEY = 'AIzaSyDC_KALlH7KORnOfm5bEyQzv6fG8FXXnsQ'  # Replace this
+GEMINI_API_KEY = ''  # Replace this
 
 @app.route('/image/ai_edit', methods=['POST'])
 def ai_image_edit():
