@@ -8,7 +8,7 @@ import pathlib
 
 app=Flask(__name__)
 
-client=genai.Client(api_key="AIzaSyDC_KALlH7KORnOfm5bEyQzv6fG8FXXnsQ")
+client=genai.Client(api_key="")
 
 @app.route('/edit_image', methods=['POST'])
 def edit_image():

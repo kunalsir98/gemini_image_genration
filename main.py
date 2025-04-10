@@ -56,7 +56,7 @@ def ai_image_edit():
         gemini_response = requests.post(gemini_endpoint, headers=headers, json=body)
         gen_data = gemini_response.json()
 
-        # 🔍 Debug: Print the entire response so we can fix any issues
+        #  Debug: Print the entire response so we can fix any issues
         print("Gemini response:", gen_data)
 
         if gemini_response.status_code != 200:
